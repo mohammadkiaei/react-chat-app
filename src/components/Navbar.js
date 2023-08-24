@@ -6,7 +6,7 @@ import styles from './Navbar.module.css';
 const Navbar = ({ logoutHandler }) => {
    return (
       <div className={styles.container}>
-         <div className={styles.name}>Kiagram</div>
+         <div className={styles.name}>Portogram</div>
          <div className={styles.logout} onClick={logoutHandler}>
             Logout
          </div>
